@@ -2,9 +2,8 @@
   "name": "crypto-game-entities",
   "version": "1.0.0",
   "description": "Entities for the Crypto Game System",
-  "main": "build/main/index.js",
-  "typings": "build/main/index.d.ts",
-  "module": "build/module/index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "repository": "https://github.com/rabelium/crypto-game-entities",
   "license": "MIT",
   "keywords": [],
@@ -88,8 +87,7 @@
     "typescript": "^4.3.5"
   },
   "files": [
-    "build/main",
-    "build/module",
+    "lib",
     "!**/*.spec.*",
     "!**/*.json",
     "CHANGELOG.md",
@@ -101,7 +99,7 @@
     "timeout": "60s",
     "typescript": {
       "rewritePaths": {
-        "src/": "build/main/"
+        "src/": "lib/"
       }
     },
     "files": [
